@@ -30,3 +30,5 @@ nav:
   - Projects: projects.md
   - About: about.md
 
+extra_javascript:
+  - javascripts/comments.js
