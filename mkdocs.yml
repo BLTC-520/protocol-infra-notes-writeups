@@ -1,0 +1,32 @@
+site_name: Protocol Infra Notes
+site_url: https://github.com/BLTC-520/protocol-infra-notes-writeups.git
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+nav:
+  - Home: index.md
+  - Writeups:
+      - Running Ethereum Node: writeups/ethereum-node.md
+      - Monitoring Stack: writeups/monitoring.md
+  - Projects: projects.md
+  - About: about.md
+
